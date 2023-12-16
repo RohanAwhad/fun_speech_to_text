@@ -2,4 +2,4 @@ fastapi
 pydantic
 uvicorn
 gunicorn
-openai-whisper
+git+https://github.com/openai/whisper.git@0a60fcaa9b86748389a656aa013c416030287d47
