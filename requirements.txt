@@ -3,3 +3,5 @@ pydantic
 uvicorn
 gunicorn
 git+https://github.com/openai/whisper.git@0a60fcaa9b86748389a656aa013c416030287d47
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.1+cpu
