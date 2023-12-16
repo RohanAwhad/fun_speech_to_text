@@ -1,3 +1,6 @@
+import subprocess
+subprocess.run(["apt-get", "install", '-y', "ffmpeg"])
+
 import whisper
 
 from fastapi import FastAPI, UploadFile
