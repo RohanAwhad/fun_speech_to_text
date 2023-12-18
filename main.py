@@ -19,7 +19,7 @@ class TranscriptionOutput(BaseModel):
 @app.post("/transcribe")
 def transcribe(file: UploadFile):
   # check if file has audio extension
-  if file.filename.split(".")[-1] not in ["wav", "mp3", "ogg", "flac"]:
+  if file.filename.split(".")[-1] not in ["wav", "mp3", "ogg", "flac", "m4a"]:
     return dict(error="Invalid file type")
 
   # Save the file to a temporary location
