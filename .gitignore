@@ -1,2 +1,5 @@
 output.wav
 __pycache__
+*.mp3
+experimentations
+.DS_Store
